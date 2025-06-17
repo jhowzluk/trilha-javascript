@@ -38,4 +38,21 @@ function calculaIMC(peso, altura) {
     return peso / (altura / 100) ** 2;
 }
 
-console.log("Seu IMC é: " + calculaIMC(peso, alturacm));
+let icimcCalculado = calculaIMC(peso, alturacm);
+
+console.log("Seu IMC é: " + icimcCalculado.toFixed(2));
+
+//Exercício 5
+let fraseMaiscula = prompt("Digite uma frase: ");
+
+function converteParaMinusculo(frase) {
+    return frase.toLowerCase();
+}
+
+console.log("Frase digitada em minúscula: " + converteParaMinusculo(fraseMaiscula));
+
+//Exercício 6
+let numUser = parseInt(prompt("Digite um número: "));
+let multiplicaPorDez = (a) => a * 10;
+
+console.log("O número digitado multiplicado por dez é: " + multiplicaPorDez(numUser));
