@@ -3,7 +3,7 @@ let carro = {
     marca: "Nissan",
     modelo: "S14 Kouki",
     ano: 1996
-};
+}
 
 console.log("Modelo: " + carro.modelo);
 
@@ -29,7 +29,7 @@ let calculadora = {
     calculaDivisao: function(num1, num2) {
         console.log("Resultado da divisão: " + (num1 / num2));
     }
-};
+}
 
 calculadora.calculaSoma(num1,num2);
 
@@ -41,7 +41,7 @@ for(let chave in calculadora) {
 let livro1 = {
     titulo: "A Arte da Guerra",
     autor: "Sun Tzu"
-};
+}
 
 let livro2 = livro1;
 livro2.titulo = "Rios Infinitos";
